@@ -8,6 +8,7 @@ import hrxpluck from './pluck';
 import hrxfirst from './first';
 import hrxstartWith from './startWith';
 import hrxevery from './every';
+import hrxdistinctUntilChanged from './distinctUntilChanged';
 
 const hrx = {
   map: hrxmap(H),
@@ -18,6 +19,7 @@ const hrx = {
   first: hrxfirst(H),
   startWith: hrxstartWith(H),
   every: hrxevery(H),
+  distinctUntilChanged: hrxdistinctUntilChanged(H),
 };
 
 const {
@@ -29,6 +31,7 @@ const {
   first,
   startWith,
   every,
+  distinctUntilChanged,
 } = hrx;
 
 export {
@@ -41,4 +44,5 @@ export {
   first,
   startWith,
   every,
+  distinctUntilChanged,
 };
