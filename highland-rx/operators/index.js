@@ -9,6 +9,7 @@ import hrxfirst from './first';
 import hrxstartWith from './startWith';
 import hrxevery from './every';
 import hrxdistinctUntilChanged from './distinctUntilChanged';
+import hrxdefaultIfEmpty from './defaultIfEmpty';
 
 const hrx = {
   map: hrxmap(H),
@@ -20,6 +21,7 @@ const hrx = {
   startWith: hrxstartWith(H),
   every: hrxevery(H),
   distinctUntilChanged: hrxdistinctUntilChanged(H),
+  defaultIfEmpty: hrxdefaultIfEmpty(H),
 };
 
 const {
@@ -32,6 +34,7 @@ const {
   startWith,
   every,
   distinctUntilChanged,
+  defaultIfEmpty,
 } = hrx;
 
 export {
@@ -45,4 +48,5 @@ export {
   startWith,
   every,
   distinctUntilChanged,
+  defaultIfEmpty,
 };

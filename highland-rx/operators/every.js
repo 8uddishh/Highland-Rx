@@ -17,8 +17,9 @@ export default H => condition => stream => stream.consume((err, x, push, next) =
       push(fnErr);
     } else if (!fnVal) {
       push(null, false);
-      push(null, x);
+      push(null, H.nil);
+    } else {
+      next();
     }
-    next();
   }
 });

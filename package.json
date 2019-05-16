@@ -21,7 +21,8 @@
     "hrx-startWith": "babel-node highland-rx-examples/operators/startWith.js",
     "hrx-tap": "babel-node highland-rx-examples/operators/tap.js",
     "hrx-every": "babel-node highland-rx-examples/operators/every.js",
-    "hrx-distinctUntilChanged": "babel-node highland-rx-examples/operators/distinctUntilChanged.js"
+    "hrx-distinctUntilChanged": "babel-node highland-rx-examples/operators/distinctUntilChanged.js",
+    "hrx-defaultIfEmpty": "babel-node highland-rx-examples/operators/defaultIfEmpty.js"
   },
   "author": "",
   "license": "ISC",
