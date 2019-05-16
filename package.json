@@ -11,6 +11,7 @@
     "hrx-range": "babel-node highland-rx-examples/streamers/range.js",
     "hrx-timer": "babel-node highland-rx-examples/streamers/timer.js",
     "hrx-interval": "babel-node highland-rx-examples/streamers/interval.js",
+    "hrx-create": "babel-node highland-rx-examples/streamers/create.js",
 
     "hrx-filter": "babel-node highland-rx-examples/operators/filter.js",
     "hrx-first": "babel-node highland-rx-examples/operators/first.js",
