@@ -5,8 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stream-examples": "babel-node Hrx-streamer.js",
-    "operators-examples": "babel-node Hrx-operator.js"
+    "hrx-empty": "babel-node highland-rx-examples/streamers/empty.js",
+    "hrx-from": "babel-node highland-rx-examples/streamers/from.js",
+    "hrx-of": "babel-node highland-rx-examples/streamers/of.js",
+    "hrx-range": "babel-node highland-rx-examples/streamers/range.js",
+    "hrx-timer": "babel-node highland-rx-examples/streamers/timer.js",
+    "hrx-interval": "babel-node highland-rx-examples/streamers/interval.js",
+
+    "hrx-filter": "babel-node highland-rx-examples/operators/filter.js",
+    "hrx-first": "babel-node highland-rx-examples/operators/first.js",
+    "hrx-map": "babel-node highland-rx-examples/operators/map.js",
+    "hrx-mapTo": "babel-node highland-rx-examples/operators/mapTo.js",
+    "hrx-pluck": "babel-node highland-rx-examples/operators/pluck.js",
+    "hrx-startWith": "babel-node highland-rx-examples/operators/startWith.js",
+    "hrx-tap": "babel-node highland-rx-examples/operators/tap.js"
   },
   "author": "",
   "license": "ISC",

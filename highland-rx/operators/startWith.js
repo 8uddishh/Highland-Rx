@@ -1,6 +1,6 @@
 import H from 'highland';
 
-export default starter => (stream) => {
+export default (...starter) => (stream) => {
   let firstConsume = false;
   return stream.consume((err, x, push, next) => {
     if (err) {
@@ -10,7 +10,10 @@ export default starter => (stream) => {
       push(null, H.nil);
     } else {
       if (!firstConsume) {
-        push(null, starter);
+        starter.forEach((s) => {
+          push(null, s);
+        });
+
         firstConsume = true;
       }
       push(null, x);
