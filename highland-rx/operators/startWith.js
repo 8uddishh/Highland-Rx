@@ -1,3 +1,1 @@
-import H from 'highland';
-
-export default (...starter) => stream => H([H(starter), stream]).merge();
+export default H => (...starter) => stream => H([H(starter), stream]).merge();

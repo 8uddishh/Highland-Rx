@@ -1,4 +1,6 @@
+import axios from 'axios';
 import { Observable } from '../../highland-rx';
+import { map } from '../../highland-rx/operators';
 
 /*
   Create an observable that emits 'Hello' and 'World' on
@@ -30,3 +32,16 @@ const evenNumbers = Observable.create((observer) => {
 });
 // output: 0...2...4...6...8
 evenNumbers.subscribe(val => console.log(val));
+
+Observable.create((observer) => {
+  axios.get('https://swapi.co/api/people/3').then((res) => {
+    observer.next(res);
+    observer.complete();
+  }).catch((err) => {
+    observer.error(err);
+  });
+}).pipe(
+  map(({ data }) => data),
+).subscribe(console.log, console.log, () => {
+  console.log('Finish stream');
+});

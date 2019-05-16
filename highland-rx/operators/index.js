@@ -1,10 +1,35 @@
-import map from './map';
-import mapTo from './mapTo';
-import filter from './filter';
-import tap from './tap';
-import pluck from './pluck';
-import first from './first';
-import startWith from './startWith';
+import H from 'highland';
+
+import hrxmap from './map';
+import hrxmapTo from './mapTo';
+import hrxfilter from './filter';
+import hrxtap from './tap';
+import hrxpluck from './pluck';
+import hrxfirst from './first';
+import hrxstartWith from './startWith';
+import hrxevery from './every';
+
+const hrx = {
+  map: hrxmap(H),
+  mapTo: hrxmapTo(H),
+  filter: hrxfilter(H),
+  tap: hrxtap(H),
+  pluck: hrxpluck(H),
+  first: hrxfirst(H),
+  startWith: hrxstartWith(H),
+  every: hrxevery(H),
+};
+
+const {
+  map,
+  mapTo,
+  filter,
+  tap,
+  pluck,
+  first,
+  startWith,
+  every,
+} = hrx;
 
 export {
   map,
@@ -15,4 +40,5 @@ export {
   pluck,
   first,
   startWith,
+  every,
 };

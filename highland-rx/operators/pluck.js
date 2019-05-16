@@ -1,5 +1,3 @@
-import H from 'highland';
-
 const pluckDeep = (first, ...props) => (obj) => {
   if (props.length === 0) {
     return obj[first];
@@ -10,7 +8,7 @@ const pluckDeep = (first, ...props) => (obj) => {
   return obj[first];
 };
 
-export default (...props) => stream => stream.consume((err, x, push, next) => {
+export default H => (...props) => stream => stream.consume((err, x, push, next) => {
   if (err) {
     push(err);
     next();

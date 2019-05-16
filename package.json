@@ -19,7 +19,8 @@
     "hrx-mapTo": "babel-node highland-rx-examples/operators/mapTo.js",
     "hrx-pluck": "babel-node highland-rx-examples/operators/pluck.js",
     "hrx-startWith": "babel-node highland-rx-examples/operators/startWith.js",
-    "hrx-tap": "babel-node highland-rx-examples/operators/tap.js"
+    "hrx-tap": "babel-node highland-rx-examples/operators/tap.js",
+    "hrx-every": "babel-node highland-rx-examples/operators/every.js"
   },
   "author": "",
   "license": "ISC",

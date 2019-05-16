@@ -1,6 +1,4 @@
-import H from 'highland';
-
-export default (condition, dflt) => (stream) => {
+export default H => (condition, dflt) => (stream) => {
   if (!condition) {
     return stream.find(() => true);
   }
