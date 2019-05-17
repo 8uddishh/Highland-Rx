@@ -1,52 +1,10 @@
-import H from 'highland';
-
-import hrxmap from './map';
-import hrxmapTo from './mapTo';
-import hrxfilter from './filter';
-import hrxtap from './tap';
-import hrxpluck from './pluck';
-import hrxfirst from './first';
-import hrxstartWith from './startWith';
-import hrxevery from './every';
-import hrxdistinctUntilChanged from './distinctUntilChanged';
-import hrxdefaultIfEmpty from './defaultIfEmpty';
-
-const hrx = {
-  map: hrxmap(H),
-  mapTo: hrxmapTo(H),
-  filter: hrxfilter(H),
-  tap: hrxtap(H),
-  pluck: hrxpluck(H),
-  first: hrxfirst(H),
-  startWith: hrxstartWith(H),
-  every: hrxevery(H),
-  distinctUntilChanged: hrxdistinctUntilChanged(H),
-  defaultIfEmpty: hrxdefaultIfEmpty(H),
-};
-
-const {
-  map,
-  mapTo,
-  filter,
-  tap,
-  pluck,
-  first,
-  startWith,
-  every,
-  distinctUntilChanged,
-  defaultIfEmpty,
-} = hrx;
-
-export {
-  map,
-  mapTo,
-  filter,
-  tap,
-  tap as do,
-  pluck,
-  first,
-  startWith,
-  every,
-  distinctUntilChanged,
-  defaultIfEmpty,
-};
+export { defaultIfEmpty } from './defaultIfEmpty-hrx';
+export { distinctUntilChanged } from './distinctUntilChanged-hrx';
+export { every } from './every-hrx';
+export { filter } from './filter-hrx';
+export { first } from './first-hrx';
+export { map } from './map-hrx';
+export { mapTo } from './mapTo-hrx';
+export { pluck } from './pluck-hrx';
+export { startWith } from './startWith-hrx';
+export { tap } from './tap-hrx';
