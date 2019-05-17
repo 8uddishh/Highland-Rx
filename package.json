@@ -13,6 +13,7 @@
     "hrx-interval": "babel-node highland-rx-examples/streamers/interval.js",
     "hrx-create": "babel-node highland-rx-examples/streamers/create.js",
 
+    "hrx-delay": "babel-node highland-rx-examples/operators/delay.js",
     "hrx-filter": "babel-node highland-rx-examples/operators/filter.js",
     "hrx-first": "babel-node highland-rx-examples/operators/first.js",
     "hrx-map": "babel-node highland-rx-examples/operators/map.js",

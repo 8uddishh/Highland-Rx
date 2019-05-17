@@ -1,4 +1,5 @@
 export { defaultIfEmpty } from './defaultIfEmpty-hrx';
+export { delay } from './delay-hrx';
 export { distinctUntilChanged } from './distinctUntilChanged-hrx';
 export { every } from './every-hrx';
 export { filter } from './filter-hrx';
