@@ -1,4 +1,11 @@
-import { of, merge, range } from '../../highland-rx';
+# delay
+### signature: delay(delay: number | Date, scheduler: Scheduler): Observable
+Delay emitted values by given time.
+
+# Examples
+## Example 1: Delay for increasing durations
+```javascript
+import { of, merge } from '../../highland-rx';
 import { mapTo, delay, observe } from '../../highland-rx/operators';
 
 // emit one item
@@ -24,8 +31,4 @@ const message = merge(
 );
 
 message.subscribe(val => console.log(val));
-
-// emit 1 - 9 after 1 second
-range(1, 9).pipe(
-  delay(1000),
-).subscribe(console.log);
+```

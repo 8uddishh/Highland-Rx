@@ -31,3 +31,15 @@ Here are the list of available streamers.
 [range](/highland-rx-examples/streamers/range.md) 
 
 [timer](/highland-rx-examples/streamers/timer.md) 
+
+
+## Operators
+Here are the list of available operators.
+
+[defaultIfEmpty](/highland-rx-examples/operators/defaultIfEmpty.md)
+
+[delay](/highland-rx-examples/operators/delay.md)
+
+[delayWhen](/highland-rx-examples/operators/delayWhen.md)
+
+[distinctUntilChanged](/highland-rx-examples/operators/distinctUntilChanged.md)
