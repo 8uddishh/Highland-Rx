@@ -18,6 +18,6 @@ Highland-Rx is divided into two modules - Streamers and Operators. Streamers are
 ## Streamers
 Here are the list of available streamers.
 
-    |     
---- | --- 
-[create](/highland-rx-examples/streamers/create.md)  | [empty](/highland-rx-examples/streamers/empty.md) 
+[create](/highland-rx-examples/streamers/create.md)
+
+[empty](/highland-rx-examples/streamers/empty.md) 
