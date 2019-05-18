@@ -6,6 +6,7 @@ export { filter } from './filter-hrx';
 export { first } from './first-hrx';
 export { map } from './map-hrx';
 export { mapTo } from './mapTo-hrx';
+export { observe } from './observer-hrx';
 export { pluck } from './pluck-hrx';
 export { startWith } from './startWith-hrx';
 export { tap } from './tap-hrx';

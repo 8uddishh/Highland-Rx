@@ -9,6 +9,7 @@ export { Observable };
 export { empty } from './streamers/empty-hrx';
 export { from } from './streamers/from-hrx';
 export { interval } from './streamers/interval-hrx';
+export { merge } from './streamers/merge-hrx';
 export { of } from './streamers/of-hrx';
 export { range } from './streamers/range-hrx';
 export { timer } from './streamers/timer-hrx';

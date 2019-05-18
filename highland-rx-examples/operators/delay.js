@@ -1,8 +1,26 @@
-import { of } from '../../highland-rx';
-import { mapTo, delay } from '../../highland-rx/operators';
+import { of, merge } from '../../highland-rx';
+import { mapTo, delay, observe } from '../../highland-rx/operators';
 
+// emit one item
 const example = of(null);
-example.pipe(
-  mapTo('Goodbye'),
-  delay(2000),
-).subscribe(console.log);
+// delay output of each by an extra second
+const message = merge(
+  example.pipe(mapTo('Hello')),
+  example.pipe(
+    observe(),
+    mapTo('World!'),
+    delay(1000),
+  ),
+  example.pipe(
+    observe(),
+    mapTo('Goodbye'),
+    delay(2000),
+  ),
+  example.pipe(
+    observe(),
+    mapTo('World!'),
+    delay(3000),
+  ),
+);
+
+message.subscribe(val => console.log(val));
