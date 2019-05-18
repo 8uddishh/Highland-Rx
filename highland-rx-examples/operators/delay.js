@@ -1,4 +1,4 @@
-import { of, merge } from '../../highland-rx';
+import { of, merge, range } from '../../highland-rx';
 import { mapTo, delay, observe } from '../../highland-rx/operators';
 
 // emit one item
@@ -24,3 +24,8 @@ const message = merge(
 );
 
 message.subscribe(val => console.log(val));
+
+
+range(1, 9).pipe(
+  delay(1000),
+).subscribe(console.log);
