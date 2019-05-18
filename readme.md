@@ -29,3 +29,5 @@ Here are the list of available streamers.
 [of/just](/highland-rx-examples/streamers/of.md) 
 
 [range](/highland-rx-examples/streamers/range.md) 
+
+[timer](/highland-rx-examples/streamers/timer.md) 
