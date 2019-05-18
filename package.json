@@ -5,25 +5,27 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "hrx-create": "babel-node highland-rx-examples/streamers/create.js",
     "hrx-empty": "babel-node highland-rx-examples/streamers/empty.js",
     "hrx-from": "babel-node highland-rx-examples/streamers/from.js",
+    "hrx-interval": "babel-node highland-rx-examples/streamers/interval.js",
     "hrx-of": "babel-node highland-rx-examples/streamers/of.js",
     "hrx-range": "babel-node highland-rx-examples/streamers/range.js",
     "hrx-timer": "babel-node highland-rx-examples/streamers/timer.js",
-    "hrx-interval": "babel-node highland-rx-examples/streamers/interval.js",
-    "hrx-create": "babel-node highland-rx-examples/streamers/create.js",
 
+    "hrx-defaultIfEmpty": "babel-node highland-rx-examples/operators/defaultIfEmpty.js",
     "hrx-delay": "babel-node highland-rx-examples/operators/delay.js",
+    "hrx-delayWhen": "babel-node highland-rx-examples/operators/delayWhen.js",
+    "hrx-distinctUntilChanged": "babel-node highland-rx-examples/operators/distinctUntilChanged.js",
+    "hrx-every": "babel-node highland-rx-examples/operators/every.js",
     "hrx-filter": "babel-node highland-rx-examples/operators/filter.js",
     "hrx-first": "babel-node highland-rx-examples/operators/first.js",
     "hrx-map": "babel-node highland-rx-examples/operators/map.js",
     "hrx-mapTo": "babel-node highland-rx-examples/operators/mapTo.js",
     "hrx-pluck": "babel-node highland-rx-examples/operators/pluck.js",
     "hrx-startWith": "babel-node highland-rx-examples/operators/startWith.js",
-    "hrx-tap": "babel-node highland-rx-examples/operators/tap.js",
-    "hrx-every": "babel-node highland-rx-examples/operators/every.js",
-    "hrx-distinctUntilChanged": "babel-node highland-rx-examples/operators/distinctUntilChanged.js",
-    "hrx-defaultIfEmpty": "babel-node highland-rx-examples/operators/defaultIfEmpty.js"
+    "hrx-tap": "babel-node highland-rx-examples/operators/tap.js"
+    
   },
   "author": "",
   "license": "ISC",
