@@ -59,4 +59,4 @@ source$
 
 source$.subscribe();
 ```
-> Note here for Highland you would have to use observe and subscribe to main method also filter above the takeWhile. In Highland once a stream is created it can be iterated only once, in Rxjs the same observable can be subscribed by multiple consumers. Highland is stream and Rxjs is observable. To observe the same source one would need to use the observe operator.
+> In Highland once a stream is created it can be iterated only once, in Rxjs the same observable can be subscribed by multiple consumers. Highland is stream and Rxjs is observable. To observe the same source one would need to use the observe operator. Avoid developing with shared streams unless necessary. KISS keep it simple stupid, Highland would work wonders then.

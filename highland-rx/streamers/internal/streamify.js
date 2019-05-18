@@ -4,9 +4,10 @@ const streamify = stream => Object.assign(stream, {
   subscribe(next, error, complete) {
     const s = stream.consume((e, x, p, n) => {
       if (e) {
-        this.emit('error', e);
         if (error) {
           error(e);
+        } else {
+          this.emit('error', e);
         }
       } else if (x === H.nil) {
         p(null, H.nil);
