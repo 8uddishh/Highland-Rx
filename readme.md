@@ -60,4 +60,6 @@ Here are the list of available operators.
 
 [take](/highland-rx-examples/operators/take.md)
 
+[takeWhile](/highland-rx-examples/operators/takeWhile.md)
+
 [tap](/highland-rx-examples/operators/tap.md)
