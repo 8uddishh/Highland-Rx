@@ -51,6 +51,7 @@ source$
 // allow values until value from source equals 3, then complete
 source$
   .pipe(
+    observe(),
     takeWhile(it => it === 3),
   )
   // log: 3, 3, 3
