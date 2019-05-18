@@ -14,7 +14,9 @@ const streamify = stream => Object.assign(stream, {
           complete();
         }
       } else {
-        next(x);
+        if (next) {
+          next(x);
+        }
         n();
       }
     });
