@@ -5,8 +5,8 @@ Emit given value if nothing is emitted before completion.
 # Examples
 ## Example 1: Delay based on observable
 ```javascript
-import { interval, timer } from '../../highland-rx';
-import { delayWhen } from '../../highland-rx/operators';
+import { interval, timer } from 'highland-rx';
+import { delayWhen } from 'highland-rx/operators';
 
 // emit value every second
 const message = interval(1000);

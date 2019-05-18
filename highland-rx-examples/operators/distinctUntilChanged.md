@@ -19,8 +19,8 @@ source$
 
 ## Example 2: distinctUntilChanged with objects
 ```javascript
-import { from } from '../../highland-rx';
-import { distinctUntilChanged } from '../../highland-rx/operators';
+import { from } from 'highland-rx';
+import { distinctUntilChanged } from 'highland-rx/operators';
 // Objects must be same reference
 const source1$ = from([sampleObject, sampleObject, sampleObject]);
 
@@ -33,8 +33,8 @@ source1$
 
 ## Example 3: Using custom comparer function
 ```javascript
-import { from } from '../../highland-rx';
-import { distinctUntilChanged } from '../../highland-rx/operators';
+import { from } from 'highland-rx';
+import { distinctUntilChanged } from 'highland-rx/operators';
 // only output distinct values, based on the last emitted value
 const source2$ = from([
   { name: 'Brian' },

@@ -5,8 +5,8 @@ Delay emitted values by given time.
 # Examples
 ## Example 1: Delay for increasing durations
 ```javascript
-import { of, merge } from '../../highland-rx';
-import { mapTo, delay, observe } from '../../highland-rx/operators';
+import { of, merge } from 'highland-rx';
+import { mapTo, delay, observe } from 'highland-rx/operators';
 
 // emit one item
 const example = of(null);

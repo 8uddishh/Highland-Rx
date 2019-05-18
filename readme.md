@@ -43,3 +43,19 @@ Here are the list of available operators.
 [delayWhen](/highland-rx-examples/operators/delayWhen.md)
 
 [distinctUntilChanged](/highland-rx-examples/operators/distinctUntilChanged.md)
+
+[every](/highland-rx-examples/operators/every.md)
+
+[filter](/highland-rx-examples/operators/filter.md)
+
+[first](/highland-rx-examples/operators/first.md)
+
+[map](/highland-rx-examples/operators/map.md)
+
+[mapTo](/highland-rx-examples/operators/mapTo.md)
+
+[pluck](/highland-rx-examples/operators/pluck.md)
+
+[startWith](/highland-rx-examples/operators/startWith.md)
+
+[tap](/highland-rx-examples/operators/tap.md)
