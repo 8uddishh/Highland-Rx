@@ -13,4 +13,5 @@ export { merge } from './streamers/merge-hrx';
 export { of } from './streamers/of-hrx';
 export { of as just } from './streamers/of-hrx';
 export { range } from './streamers/range-hrx';
+export { throwError } from './streamers/throwError-hrx';
 export { timer } from './streamers/timer-hrx';

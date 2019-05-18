@@ -2,27 +2,39 @@ import H from 'highland';
 
 const streamify = stream => Object.assign(stream, {
   subscribe(next, error, complete) {
-    const s = stream.consume((e, x, p, n) => {
-      if (e) {
-        if (error) {
-          error(e);
+    try {
+      const s = stream.consume((e, x, p, n) => {
+        if (e) {
+          if (error) {
+            error(e);
+            if (complete) {
+              complete();
+            }
+          } else {
+            this.emit('error', e);
+          }
+        } else if (x === H.nil) {
+          p(null, H.nil);
+          if (complete) {
+            complete();
+          }
         } else {
-          this.emit('error', e);
+          if (next) {
+            next(x);
+          }
+          n();
         }
-      } else if (x === H.nil) {
-        p(null, H.nil);
-        if (complete) {
-          complete();
-        }
+      });
+      s.resume();
+      return s;
+    } catch (hex) {
+      if (error) {
+        error(hex);
       } else {
-        if (next) {
-          next(x);
-        }
-        n();
+        throw hex;
       }
-    });
-    s.resume();
-    return s;
+      return null;
+    }
   },
   pipe: (first, ...rest) => {
     const stream$ = streamify(first(stream));

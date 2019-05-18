@@ -30,6 +30,8 @@ Here are the list of available streamers.
 
 [range](/highland-rx-examples/streamers/range.md) 
 
+[throwError](/highland-rx-examples/streamers/throwError.md) 
+
 [timer](/highland-rx-examples/streamers/timer.md) 
 
 
@@ -59,6 +61,8 @@ Here are the list of available operators.
 [startWith](/highland-rx-examples/operators/startWith.md)
 
 [take](/highland-rx-examples/operators/take.md)
+
+[takeUntil](/highland-rx-examples/operators/takeUntil.md)
 
 [takeWhile](/highland-rx-examples/operators/takeWhile.md)
 
