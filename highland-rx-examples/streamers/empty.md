@@ -1,5 +1,5 @@
 # empty
-
+### signature: empty(scheduler: Scheduler): Observable
 Stream that immediately completes.
 
 # Examples
