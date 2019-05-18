@@ -58,4 +58,6 @@ Here are the list of available operators.
 
 [startWith](/highland-rx-examples/operators/startWith.md)
 
+[take](/highland-rx-examples/operators/take.md)
+
 [tap](/highland-rx-examples/operators/tap.md)

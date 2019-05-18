@@ -10,4 +10,5 @@ export { mapTo } from './mapTo-hrx';
 export { observe } from './observer-hrx';
 export { pluck } from './pluck-hrx';
 export { startWith } from './startWith-hrx';
+export { take } from './take-hrx';
 export { tap } from './tap-hrx';

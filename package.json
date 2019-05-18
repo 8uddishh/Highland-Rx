@@ -24,6 +24,7 @@
     "hrx-mapTo": "babel-node highland-rx-examples/operators/mapTo.js",
     "hrx-pluck": "babel-node highland-rx-examples/operators/pluck.js",
     "hrx-startWith": "babel-node highland-rx-examples/operators/startWith.js",
+    "hrx-take": "babel-node highland-rx-examples/operators/take.js",
     "hrx-tap": "babel-node highland-rx-examples/operators/tap.js"
     
   },
