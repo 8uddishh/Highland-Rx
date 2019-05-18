@@ -11,7 +11,7 @@ It goes without saying that we need Highland to work.
 npm install highland
 ```
 
-#Content
+# Content
 
 Highland-Rx is divided into two modules - Streamers and Operators. Streamers are anything that sources a stream eg from, of, range etc... Operators are anything that utilizes a stream, manipulates a stream or consumes it eg map, delay etc...
 
@@ -21,3 +21,5 @@ Here are the list of available streamers.
 [create](/highland-rx-examples/streamers/create.md)
 
 [empty](/highland-rx-examples/streamers/empty.md) 
+
+[from](/highland-rx-examples/streamers/from.md) 
