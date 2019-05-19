@@ -1,6 +1,6 @@
 # take
 ### signature: take(count: number): Observable
-Emit provided number of values before completing.
+> Emits only the first count values emitted by the source Observable.
 
 # Why use take?
 When you are interested in only the first emission, you want to use take. Maybe you want to see what the user first clicked on when they entered the page, or you would want to subscribe to the click event and just take the first emission. Another use-case is when you need to take a snapshot of data at a particular point in time but do not require further emissions. For example, a stream of user token updates, or a route guard based on a stream in an Angular application.

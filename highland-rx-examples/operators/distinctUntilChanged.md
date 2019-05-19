@@ -1,6 +1,6 @@
 # distinctUntilChanged
 ### signature: distinctUntilChanged(compare: function): Observable
-Only emit when the current value is different than the last.
+> Returns an Observable that emits all items emitted by the source Observable that are distinct by comparison from the previous item.
 
 # Examples
 ## Example 1: distinctUntilChanged with basic values

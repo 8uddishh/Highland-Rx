@@ -1,6 +1,6 @@
 # first
 ### signature: first(predicate: function, select: function)
-Emit the first value or first to pass provided expression.
+> Emits only the first value (or the first value that meets some condition) emitted by the source Observable.
 
 # Examples
 ## Example 1: filter for even numbers

@@ -1,6 +1,6 @@
 # last
 ### signature: last(predicate: function): Observable
-Emit the last value emitted from source on completion, based on provided expression.
+> Returns an Observable that emits only the last item emitted by the source Observable. It optionally takes a predicate function as a parameter, in which case, rather than emitting the last item from the source Observable, the resulting Observable will emit the last item from the source Observable that satisfies the predicate.
 
 # Examples
 ## Example 1: Last value in sequence

@@ -1,6 +1,6 @@
 # filter
 ### signature: filter(select: Function, thisArg: any): Observable
-Emit values that pass the provided condition.
+> Filter items emitted by the source Observable by only emitting those that satisfy a specified predicate.
 
 # Examples
 ## Example 1: filter for even numbers

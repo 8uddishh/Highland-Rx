@@ -1,6 +1,6 @@
 # pluck
 ### signature: pluck(properties: ...args): Observable
-Select properties to emit.
+> Maps each source value (an object) to its specified nested property.
 
 # Examples
 ## Example 1: Pluck object property

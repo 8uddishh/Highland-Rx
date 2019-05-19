@@ -1,6 +1,6 @@
 # map
 ### signature: map(project: Function, thisArg: any): Observable
-Apply projection with each value from source.
+> Applies a given project function to each value emitted by the source Observable, and emits the resulting values as an Observable.
 
 # Examples
 ## Example 1: Add 10 to each number

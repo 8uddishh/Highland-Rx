@@ -1,6 +1,6 @@
 # tap / do
 ### signature: tap(nextOrObserver: function, error: function, complete: function): Observable
-Transparently perform actions or side-effects, such as logging.
+> Perform a side effect for every emission on the source Observable, but return an Observable that is identical to the source.
 
 # Examples
 ## Example 1: Logging with tap

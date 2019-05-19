@@ -1,6 +1,6 @@
 # takeUntil
 ### signature: takeUntil(notifier: Observable): Observable
-Emit values until provided observable emits.
+> Emits the values emitted by the source Observable until a notifier Observable emits a value.
 
 # Examples
 ## Example 1: Take values until timer emits

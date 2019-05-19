@@ -1,6 +1,6 @@
 # defaultIfEmpty
 ### signature: defaultIfEmpty(defaultValue: any): Observable
-Emit given value if nothing is emitted before completion.
+> Emits a given value if the source Observable completes without emitting any next value, otherwise mirrors the source Observable.
 
 # Examples
 ## Example 1: Default for empty value

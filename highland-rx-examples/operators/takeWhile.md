@@ -1,6 +1,6 @@
 # takeWhile
 ### signature: takeWhile(predicate: function(value, index): boolean, inclusive?: boolean): Observable
-Emit values until provided expression is false.
+> Emits values emitted by the source Observable so long as each value satisfies the given predicate, and then completes as soon as this predicate is not satisfied.
 
 # Examples
 ## Example 1: Take values under limit

@@ -1,6 +1,6 @@
 # skipUntil
 ### signature: skipUntil(the: Observable): Observable
-Skip emitted values from source until provided observable emits.
+> Returns an Observable that skips items emitted by the source Observable until a second Observable emits an item.
 
 # Examples
 ## Example 1: Skip until observable emits

@@ -38,6 +38,8 @@ Here are the list of available streamers.
 ## Operators
 Here are the list of available operators.
 
+[audit](/highland-rx-examples/operators/audit.md)
+
 [defaultIfEmpty](/highland-rx-examples/operators/defaultIfEmpty.md)
 
 [delay](/highland-rx-examples/operators/delay.md)

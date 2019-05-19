@@ -1,3 +1,4 @@
+export { audit } from './audit.hrx';
 export { defaultIfEmpty } from './defaultIfEmpty-hrx';
 export { delay } from './delay-hrx';
 export { delayWhen } from './delayWhen-hrx';

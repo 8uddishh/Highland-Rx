@@ -1,6 +1,6 @@
 # delay
 ### signature: delay(delay: number | Date, scheduler: Scheduler): Observable
-Delay emitted values by given time.
+> Delays the emission of items from the source Observable by a given timeout or until a given Date.
 
 # Examples
 ## Example 1: Delay for increasing durations

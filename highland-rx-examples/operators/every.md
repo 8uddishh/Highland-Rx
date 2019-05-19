@@ -1,6 +1,6 @@
 # every
 ### signature: every(predicate: function, thisArg: any): Observable
-If all values pass predicate before completion emit true, else false.
+> Returns an Observable that emits whether or not every item of the source satisfies the condition specified.
 
 # Examples
 ## Example 1: Some values false

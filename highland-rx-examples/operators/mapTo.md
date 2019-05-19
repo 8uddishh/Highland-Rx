@@ -1,6 +1,6 @@
 # mapTo
 ### signature: mapTo(value: any): Observable
-Map emissions to constant value.
+> Emits the given constant value on the output Observable every time the source Observable emits a value.
 
 # Examples
 ## Example 1: Map every emission to string

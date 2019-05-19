@@ -1,6 +1,6 @@
 # skipWhile
 ### signature: skipWhile(predicate: Function): Observable
-Skip emitted values from source until provided expression is false.
+> Returns an Observable that skips all items emitted by the source Observable as long as a specified condition holds true, but emits all further source items as soon as the condition becomes false.
 
 # Examples
 ## Example 1: Skip while values below threshold

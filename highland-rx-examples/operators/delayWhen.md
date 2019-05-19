@@ -1,6 +1,6 @@
 # delayWhen
 ### signature: delayWhen(selector: Function, sequence: Observable): Observable
-Emit given value if nothing is emitted before completion.
+> Delays the emission of items from the source Observable by a given time span determined by the emissions of another Observable.
 
 # Examples
 ## Example 1: Delay based on observable

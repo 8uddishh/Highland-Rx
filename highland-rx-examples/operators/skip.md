@@ -1,6 +1,6 @@
 # skip
 ### signature: skip(the: Number): Observable
-Skip the provided number of emitted values.
+> Returns an Observable that skips the first count items emitted by the source Observable.
 
 # Why use skip?
 Skip allows you to ignore the first x emissions from the source. Generally skip is used when you have an observable that always emits certain values on subscription that you wish to ignore. Perhaps those first few aren't needed or you are subscribing to a Replay or BehaviorSubject and do not need to act on the initial values. Reach for skip if you are only concerned about later emissions.

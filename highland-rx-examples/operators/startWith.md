@@ -1,6 +1,6 @@
 # startWith
 ### signature: startWith(an: Values): Observable
-Emit given value first.
+> Returns an Observable that emits the items you specify as arguments before it begins to emit items emitted by the source Observable.
 
 # Examples
 ## Example 1: startWith on number sequence
