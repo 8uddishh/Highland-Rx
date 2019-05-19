@@ -5,6 +5,7 @@ export { distinctUntilChanged } from './distinctUntilChanged-hrx';
 export { every } from './every-hrx';
 export { filter } from './filter-hrx';
 export { first } from './first-hrx';
+export { last } from './last-hrx';
 export { map } from './map-hrx';
 export { mapTo } from './mapTo-hrx';
 export { observe } from './observer-hrx';

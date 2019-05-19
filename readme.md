@@ -52,6 +52,8 @@ Here are the list of available operators.
 
 [first](/highland-rx-examples/operators/first.md)
 
+[last](/highland-rx-examples/operators/last.md)
+
 [map](/highland-rx-examples/operators/map.md)
 
 [mapTo](/highland-rx-examples/operators/mapTo.md)

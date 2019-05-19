@@ -21,6 +21,7 @@
     "hrx-every": "babel-node highland-rx-examples/operators/every.js",
     "hrx-filter": "babel-node highland-rx-examples/operators/filter.js",
     "hrx-first": "babel-node highland-rx-examples/operators/first.js",
+    "hrx-last": "babel-node highland-rx-examples/operators/last.js",
     "hrx-map": "babel-node highland-rx-examples/operators/map.js",
     "hrx-mapTo": "babel-node highland-rx-examples/operators/mapTo.js",
     "hrx-pluck": "babel-node highland-rx-examples/operators/pluck.js",
