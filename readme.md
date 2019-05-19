@@ -58,6 +58,8 @@ Here are the list of available operators.
 
 [pluck](/highland-rx-examples/operators/pluck.md)
 
+[skip](/highland-rx-examples/operators/skip.md)
+
 [startWith](/highland-rx-examples/operators/startWith.md)
 
 [take](/highland-rx-examples/operators/take.md)
