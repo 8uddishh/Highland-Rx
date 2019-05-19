@@ -60,6 +60,8 @@ Here are the list of available operators.
 
 [skip](/highland-rx-examples/operators/skip.md)
 
+[skipUntil](/highland-rx-examples/operators/skipUntil.md)
+
 [skipWhile](/highland-rx-examples/operators/skipWhile.md)
 
 [startWith](/highland-rx-examples/operators/startWith.md)

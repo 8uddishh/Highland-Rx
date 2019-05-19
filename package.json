@@ -25,6 +25,7 @@
     "hrx-mapTo": "babel-node highland-rx-examples/operators/mapTo.js",
     "hrx-pluck": "babel-node highland-rx-examples/operators/pluck.js",
     "hrx-skip": "babel-node highland-rx-examples/operators/skip.js",
+    "hrx-skipUntil": "babel-node highland-rx-examples/operators/skipUntil.js",
     "hrx-skipWhile": "babel-node highland-rx-examples/operators/skipWhile.js",
     "hrx-startWith": "babel-node highland-rx-examples/operators/startWith.js",
     "hrx-take": "babel-node highland-rx-examples/operators/take.js",
