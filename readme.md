@@ -40,6 +40,8 @@ Here are the list of available operators.
 
 [audit](/highland-rx-examples/operators/audit.md)
 
+[auditTime](/highland-rx-examples/operators/auditTime.md)
+
 [defaultIfEmpty](/highland-rx-examples/operators/defaultIfEmpty.md)
 
 [delay](/highland-rx-examples/operators/delay.md)
@@ -47,6 +49,8 @@ Here are the list of available operators.
 [delayWhen](/highland-rx-examples/operators/delayWhen.md)
 
 [distinctUntilChanged](/highland-rx-examples/operators/distinctUntilChanged.md)
+
+[do](/highland-rx-examples/operators/tap.md)
 
 [every](/highland-rx-examples/operators/every.md)
 

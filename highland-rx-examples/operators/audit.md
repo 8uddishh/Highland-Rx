@@ -3,7 +3,7 @@
 > Ignores source values for a duration determined by another Observable, then emits the most recent value from the source Observable, then repeats this process.
 
 # Examples
-## Example 1: Default for empty value
+## Example 1: Emit clicks at a rate of at most one per two seconds
 ```javascript
 import { interval } from 'highland-rx';
 import { audit } from 'highland-rx/operators';
