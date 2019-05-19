@@ -10,8 +10,8 @@ You could mimic skip by using filter with indexes. Ex. .filter((val, index) => i
 # Examples
 ## Example 1: Skipping values before emission
 ```javascript
-import { interval } from '../../highland-rx';
-import { skip } from '../../highland-rx/operators';
+import { interval } from 'highland-rx';
+import { skip } from 'highland-rx/operators';
 
 // emit every 1s
 const source = interval(1000);
