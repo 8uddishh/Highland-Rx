@@ -1,5 +1,8 @@
 export { audit } from './audit-hrx';
 export { auditTime } from './auditTime-hrx';
+export { bufferCount as batch } from './bufferCount-hrx';
+export { buffer } from './buffer-hrx';
+export { bufferCount } from './bufferCount-hrx';
 export { defaultIfEmpty } from './defaultIfEmpty-hrx';
 export { delay } from './delay-hrx';
 export { delayWhen } from './delayWhen-hrx';
@@ -10,7 +13,7 @@ export { first } from './first-hrx';
 export { last } from './last-hrx';
 export { map } from './map-hrx';
 export { mapTo } from './mapTo-hrx';
-export { observe } from './observer-hrx';
+export { observe } from './observe-hrx';
 export { pluck } from './pluck-hrx';
 export { skip } from './skip-hrx';
 export { skipUntil } from './skipUntil-hrx';

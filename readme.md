@@ -42,6 +42,10 @@ Here are the list of available operators.
 
 [auditTime](/highland-rx-examples/operators/auditTime.md)
 
+[buffer](/highland-rx-examples/operators/buffer.md)
+
+[bufferCount / batch](/highland-rx-examples/operators/bufferCount.md)
+
 [defaultIfEmpty](/highland-rx-examples/operators/defaultIfEmpty.md)
 
 [delay](/highland-rx-examples/operators/delay.md)
