@@ -3,6 +3,7 @@ export { auditTime } from './auditTime-hrx';
 export { bufferCount as batch } from './bufferCount-hrx';
 export { buffer } from './buffer-hrx';
 export { bufferCount } from './bufferCount-hrx';
+export { bufferTime } from './bufferTime-hrx';
 export { defaultIfEmpty } from './defaultIfEmpty-hrx';
 export { delay } from './delay-hrx';
 export { delayWhen } from './delayWhen-hrx';

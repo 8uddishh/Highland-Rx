@@ -9,6 +9,8 @@ Here are the list of available operators.
 
 [bufferCount / batch](/highland-rx-examples/operators/bufferCount.md)
 
+[bufferTime](/highland-rx-examples/operators/bufferTime.md)
+
 [defaultIfEmpty](/highland-rx-examples/operators/defaultIfEmpty.md)
 
 [delay](/highland-rx-examples/operators/delay.md)

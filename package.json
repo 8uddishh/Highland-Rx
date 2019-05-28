@@ -18,6 +18,7 @@
     "hrx-auditTime": "babel-node highland-rx-examples/operators/auditTime.js",
     "hrx-buffer": "babel-node highland-rx-examples/operators/buffer.js",
     "hrx-bufferCount": "babel-node highland-rx-examples/operators/bufferCount.js",
+    "hrx-bufferTime": "babel-node highland-rx-examples/operators/bufferTime.js",
     "hrx-defaultIfEmpty": "babel-node highland-rx-examples/operators/defaultIfEmpty.js",
     "hrx-delay": "babel-node highland-rx-examples/operators/delay.js",
     "hrx-delayWhen": "babel-node highland-rx-examples/operators/delayWhen.js",
