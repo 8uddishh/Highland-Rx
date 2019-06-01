@@ -1,45 +1,48 @@
 import H from "highland";
-class AuditOpr {
-    constructor(source, durationSelector) {
+import { observe } from './observe';
+class BufferOpr {
+    constructor(source, closingNotifier) {
         this._source = source;
-        this._durationSelector = durationSelector;
+        this._closingNotifier = closingNotifier;
     }
     stream$() {
-        let currentValue = null;
+        let buffer = [];
         let lowerObsEmitted = false;
-        let paused = false;
         let currentObservable = null;
+        this._closingNotifier.subscribe();
         return this._source.consume((err, x, push, next) => {
             if (err) {
                 push(err);
                 // next();
             }
             else if (x === H.nil) {
-                push(new Error('Cannot use audit inside a cold Observable'));
+                push(new Error('Cannot use buffer inside a cold Observable'));
                 push(null, H.nil);
             }
             else {
-                currentValue = x;
                 if (currentObservable && lowerObsEmitted) {
+                    currentObservable.destroy();
                     currentObservable = null;
                     lowerObsEmitted = false;
-                    push(null, currentValue);
+                    push(null, buffer);
+                    buffer = [];
                 }
                 else if (!currentObservable) {
-                    currentObservable = this._durationSelector(currentValue);
+                    currentObservable = this._closingNotifier.pipe(observe());
                     currentObservable.subscribe(() => {
                         lowerObsEmitted = true;
                         currentObservable.pause();
                     });
                 }
                 next();
+                buffer.push(x);
             }
         });
     }
 }
-export function audit(durationSelector) {
+export function buffer(closingNotifier) {
     return (stream) => {
-        const operator = new AuditOpr(stream, durationSelector);
+        const operator = new BufferOpr(stream, closingNotifier);
         return operator.stream$();
     };
 }

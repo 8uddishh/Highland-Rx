@@ -1,5 +1,8 @@
-import { interval } from '../../highland-rx';
-import { buffer, map } from '../../highland-rx/operators';
+import { interval } from '../../dist';
+import { buffer, map } from '../../dist/operators';
+
+// import { interval } from '../../highland-rx';
+// import { buffer, map } from '../../highland-rx/operators';
 
 const arr$ = interval(1000).pipe(map(x => `Timer ${x}`));
 const result = arr$.pipe(buffer(interval(3000)));

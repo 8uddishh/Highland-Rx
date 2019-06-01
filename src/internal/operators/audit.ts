@@ -25,7 +25,6 @@ class AuditOpr<T> implements Operatable<T, T> {
       } else {
         currentValue = x;
         if (currentObservable && lowerObsEmitted) {
-          // currentObservable.destroy();
           currentObservable = null;
           lowerObsEmitted = false;
           push(null, currentValue);
