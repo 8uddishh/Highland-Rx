@@ -1,5 +1,8 @@
-import { interval, timer } from '../../highland-rx';
-import { delayWhen } from '../../highland-rx/operators';
+import { interval, timer } from '../../dist';
+import { delayWhen } from '../../dist/operators';
+
+// import { interval, timer } from '../../highland-rx';
+// import { delayWhen } from '../../highland-rx/operators';
 
 // emit value every second
 const message = interval(1000);
