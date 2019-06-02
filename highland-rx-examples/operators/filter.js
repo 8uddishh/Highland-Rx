@@ -1,5 +1,8 @@
-import { from, interval } from '../../highland-rx';
-import { filter } from '../../highland-rx/operators';
+import { from, interval } from '../../dist';
+import { filter } from '../../dist/operators';
+
+// import { from, interval } from '../../highland-rx';
+// import { filter } from '../../highland-rx/operators';
 
 // emit ({name: 'Joe', age: 31}, {name: 'Bob', age:25})
 const source = from([{ name: 'Joe', age: 31 }, { name: 'Bob', age: 25 }]);
