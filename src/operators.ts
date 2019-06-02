@@ -7,6 +7,7 @@ export { bufferTime } from './internal/operators/bufferTime';
 export { defaultIfEmpty } from './internal/operators/defaultIfEmpty';
 export { delay } from './internal/operators/delay';
 export { delayWhen } from './internal/operators/delayWhen';
+export { distinctUntilChanged } from './internal/operators/distinctUntilChanged';
 export { map } from './internal/operators/map';
 export { mapTo } from './internal/operators/mapTo';
 export { observe } from './internal/operators/observe';
