@@ -35,6 +35,7 @@
     "hrx-skipWhile": "babel-node highland-rx-examples/operators/skipWhile.js",
     "hrx-startWith": "babel-node highland-rx-examples/operators/startWith.js",
     "hrx-take": "babel-node highland-rx-examples/operators/take.js",
+    "hrx-takeLast": "babel-node highland-rx-examples/operators/takeLast.js",
     "hrx-takeUntil": "babel-node highland-rx-examples/operators/takeUntil.js",
     "hrx-takeWhile": "babel-node highland-rx-examples/operators/takeWhile.js",
     "hrx-tap": "babel-node highland-rx-examples/operators/tap.js",
