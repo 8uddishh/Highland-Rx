@@ -15,6 +15,7 @@ export { last } from './internal/operators/last';
 export { map } from './internal/operators/map';
 export { mapTo } from './internal/operators/mapTo';
 export { observe } from './internal/operators/observe';
+export { pluck } from './internal/operators/pluck';
 export { take } from './internal/operators/take';
 export { takeLast } from './internal/operators/takeLast';
 export { throwIfEmpty } from './internal/operators/throwIfEmpty';
