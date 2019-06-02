@@ -1,5 +1,8 @@
-import { of } from '../../highland-rx';
-import { every } from '../../highland-rx/operators';
+import { of } from '../../dist';
+import { every } from '../../dist/operators';
+
+// import { of } from '../../highland-rx';
+// import { every } from '../../highland-rx/operators';
 
 // emit 5 values
 const allEvens = of(1, 2, 4, 6, 8, 10);

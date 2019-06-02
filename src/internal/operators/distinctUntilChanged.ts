@@ -1,6 +1,5 @@
 import H from "highland";
 import { Operatable } from "../types";
-import { Observable } from "../../internal/Observable";
 
 class DistinctUntilChangedOpr<T, K> implements Operatable<T, T> {
   _source: Highland.Stream<T>;
