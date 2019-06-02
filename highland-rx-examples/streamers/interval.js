@@ -1,4 +1,6 @@
-import { interval } from '../../highland-rx';
+import { interval } from '../../dist';
+
+// import { interval } from '../../highland-rx';
 
 // emit value in sequence every 1 second
 const source = interval(1000);

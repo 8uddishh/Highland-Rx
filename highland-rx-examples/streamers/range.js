@@ -1,4 +1,6 @@
-import { range } from '../../highland-rx';
+import { range } from '../../dist';
+
+// import { range } from '../../highland-rx';
 
 // emit 1-10 in sequence
 const source = range(1, 10);

@@ -1,4 +1,5 @@
-import { throwError } from '../../highland-rx';
+import { throwError } from '../../dist';
+// import { throwError } from '../../highland-rx';
 
 // emits an error with specified value on subscription
 const source = throwError('This is an error!');

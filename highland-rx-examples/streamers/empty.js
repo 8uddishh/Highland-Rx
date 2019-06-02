@@ -1,4 +1,6 @@
-import { empty } from '../../highland-rx';
+import { empty } from '../../dist';
+
+// import { empty } from '../../highland-rx';
 
 // output: 'Complete!'
 empty().subscribe(() => console.log('Next'), null, () => console.log('Complete!'));

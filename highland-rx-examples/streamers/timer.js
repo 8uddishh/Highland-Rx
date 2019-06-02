@@ -1,4 +1,6 @@
-import { timer } from '../../highland-rx';
+import { timer } from '../../dist';
+
+// import { timer } from '../../highland-rx';
 
 // emit 0 after 1 second then complete, since no second argument is supplied
 const source = timer(1000);

@@ -1,4 +1,6 @@
-import { of } from '../../highland-rx';
+import { of } from '../../dist';
+
+// import { of } from '../../highland-rx';
 
 // emits any number of provided values in sequence
 const source = of(1, 2, 3, 4, 5);

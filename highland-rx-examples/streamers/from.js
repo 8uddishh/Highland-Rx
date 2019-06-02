@@ -1,4 +1,5 @@
-import { from } from '../../highland-rx';
+import { from } from '../../dist';
+// import { from } from '../../highland-rx';
 
 // emit array as a sequence of values
 const arraySource = from([1, 2, 3, 4, 5]);

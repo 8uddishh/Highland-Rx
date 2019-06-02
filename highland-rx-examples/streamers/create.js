@@ -1,6 +1,10 @@
 import axios from 'axios';
-import { Observable } from '../../highland-rx';
-import { map } from '../../highland-rx/operators';
+import { Observable } from '../../dist';
+import { map } from '../../dist/operators';
+
+// import axios from 'axios';
+// import { Observable } from '../../highland-rx';
+// import { map } from '../../highland-rx/operators';
 
 /*
   Create an observable that emits 'Hello' and 'World' on

@@ -12,3 +12,4 @@ export { of } from './internal/streamers/of';
 export { of as just } from './internal/streamers/of';
 export { range } from './internal/streamers/range';
 export { timer } from './internal/streamers/timer';
+export { throwError } from './internal/streamers/throwError';
