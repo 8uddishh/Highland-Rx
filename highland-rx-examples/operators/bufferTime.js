@@ -1,5 +1,8 @@
-import { interval, from } from '../../highland-rx';
-import { bufferTime } from '../../highland-rx/operators';
+import { interval, from } from '../../dist';
+import { bufferTime } from '../../dist/operators';
+
+// import { interval, from } from '../../highland-rx';
+// import { bufferTime } from '../../highland-rx/operators';
 
 // Create an observable that emits a value every 500ms
 const source = interval(500);
