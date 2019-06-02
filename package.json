@@ -13,6 +13,7 @@
     "hrx-range": "babel-node highland-rx-examples/streamers/range.js",
     "hrx-throwError": "babel-node highland-rx-examples/streamers/throwError.js",
     "hrx-timer": "babel-node highland-rx-examples/streamers/timer.js",
+    
     "hrx-audit": "babel-node highland-rx-examples/operators/audit.js",
     "hrx-auditTime": "babel-node highland-rx-examples/operators/auditTime.js",
     "hrx-buffer": "babel-node highland-rx-examples/operators/buffer.js",
