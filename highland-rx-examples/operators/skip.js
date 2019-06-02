@@ -1,5 +1,8 @@
-import { interval, from } from '../../highland-rx';
-import { skip, filter, observe } from '../../highland-rx/operators';
+import { interval, from } from '../../dist';
+import { skip, filter, observe } from '../../dist/operators';
+
+// import { interval, from } from '../../highland-rx';
+// import { skip, filter, observe } from '../../highland-rx/operators';
 
 // emit every 1s
 const source = interval(1000);
