@@ -1,8 +1,5 @@
-import { of, interval } from '../../dist';
-import { startWith } from '../../dist/operators';
-
-// import { of, interval } from '../../highland-rx';
-// import { startWith } from '../../highland-rx/operators';
+import { of, interval } from '../../highland-rx';
+import { startWith } from '../../highland-rx/operators';
 
 // emit (1,2,3)
 const source = of(1, 2, 3);

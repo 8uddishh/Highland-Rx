@@ -1,8 +1,5 @@
-import { from } from '../../dist';
-import { distinctUntilChanged } from '../../dist/operators';
-
-// import { from } from '../../highland-rx';
-// import { distinctUntilChanged } from '../../highland-rx/operators';
+import { from } from '../../highland-rx';
+import { distinctUntilChanged } from '../../highland-rx/operators';
 
 // only output distinct values, based on the last emitted value
 const source$ = from([1, 1, 2, 2, 3, 3]);

@@ -1,8 +1,5 @@
-import { interval } from '../../dist';
-import { skipWhile } from '../../dist/operators';
-
-// import { interval } from '../../highland-rx';
-// import { skipWhile } from '../../highland-rx/operators';
+import { interval } from '../../highland-rx';
+import { skipWhile } from '../../highland-rx/operators';
 
 // emit every 1s
 const source = interval(1000);

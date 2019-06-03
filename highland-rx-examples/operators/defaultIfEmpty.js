@@ -1,8 +1,5 @@
-import { of, empty } from '../../dist';
-import { defaultIfEmpty } from '../../dist/operators';
-
-// import { of, empty } from '../../highland-rx';
-// import { defaultIfEmpty } from '../../highland-rx/operators';
+import { of, empty } from '../../highland-rx';
+import { defaultIfEmpty } from '../../highland-rx/operators';
 
 // emit 'Observable.of() Empty!' when empty, else any values from source
 const exampleOne = of().pipe(defaultIfEmpty('Observable.of() Empty!'));

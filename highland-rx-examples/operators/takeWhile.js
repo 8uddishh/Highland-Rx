@@ -1,8 +1,5 @@
-import { of } from '../../dist';
-import { takeWhile, filter, observe } from '../../dist/operators';
-
-// import { of } from '../../highland-rx';
-// import { takeWhile, filter, observe } from '../../highland-rx/operators';
+import { of } from '../../highland-rx';
+import { takeWhile, filter, observe } from '../../highland-rx/operators';
 
 // emit 1,2,3,4,5
 const source$ = of(1, 2, 3, 4, 5);

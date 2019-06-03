@@ -1,8 +1,5 @@
-import { from } from '../../dist';
-import { pluck } from '../../dist/operators';
-
-// import { from } from '../../highland-rx';
-// import { pluck } from '../../highland-rx/operators';
+import { from } from '../../highland-rx';
+import { pluck } from '../../highland-rx/operators';
 
 const source = from([{ name: 'Joe', age: 30 }, { name: 'Sarah', age: 35 }]);
 // grab names

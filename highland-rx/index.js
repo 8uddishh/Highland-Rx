@@ -1,17 +1,13 @@
-import H from 'highland';
-import { create } from './streamers/create-hrx';
-
-const Observable = {
-  create: create(H),
-};
-
-export { Observable };
-export { empty } from './streamers/empty-hrx';
-export { from } from './streamers/from-hrx';
-export { interval } from './streamers/interval-hrx';
-export { merge } from './streamers/merge-hrx';
-export { of } from './streamers/of-hrx';
-export { of as just } from './streamers/of-hrx';
-export { range } from './streamers/range-hrx';
-export { throwError } from './streamers/throwError-hrx';
-export { timer } from './streamers/timer-hrx';
+/* Observable */
+export { Observable } from './internal/Observable';
+/* Static observable creation exports */
+export { bindCallback } from './internal/streamers/bindCallback';
+export { empty } from './internal/streamers/empty';
+export { from } from './internal/streamers/from';
+export { interval } from './internal/streamers/interval';
+export { merge } from './internal/streamers/merge';
+export { of } from './internal/streamers/of';
+export { of as just } from './internal/streamers/of';
+export { range } from './internal/streamers/range';
+export { timer } from './internal/streamers/timer';
+export { throwError } from './internal/streamers/throwError';

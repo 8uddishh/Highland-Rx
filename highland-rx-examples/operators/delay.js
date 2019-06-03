@@ -1,8 +1,5 @@
-import { of, merge, range } from '../../dist';
-import { mapTo, delay, observe } from '../../dist/operators';
-
-// import { of, merge, range } from '../../highland-rx';
-// import { mapTo, delay, observe } from '../../highland-rx/operators';
+import { of, merge, range } from '../../highland-rx';
+import { mapTo, delay, observe } from '../../highland-rx/operators';
 
 // emit one item
 const example = of(null);

@@ -1,8 +1,5 @@
-import { from } from '../../dist';
-import { first } from '../../dist/operators';
-
-// import { from } from '../../highland-rx';
-// import { first } from '../../highland-rx/operators';
+import { from } from '../../highland-rx';
+import { first } from '../../highland-rx/operators';
 
 const source = from([1, 2, 3, 4, 5]);
 // no arguments, emit first value
