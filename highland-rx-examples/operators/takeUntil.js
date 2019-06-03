@@ -1,5 +1,8 @@
-import { interval, timer } from '../../highland-rx';
-import { takeUntil } from '../../highland-rx/operators';
+import { interval, timer } from '../../dist';
+import { takeUntil } from '../../dist/operators';
+
+// import { interval, timer } from '../../highland-rx';
+// import { takeUntil } from '../../highland-rx/operators';
 
 // emit value every 1s
 const source = interval(1000);

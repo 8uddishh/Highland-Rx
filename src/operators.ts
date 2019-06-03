@@ -22,4 +22,5 @@ export { skipWhile } from './internal/operators/skipWhile';
 export { startWith } from './internal/operators/startWith';
 export { take } from './internal/operators/take';
 export { takeLast } from './internal/operators/takeLast';
+export { takeUntil } from './internal/operators/takeUntil';
 export { throwIfEmpty } from './internal/operators/throwIfEmpty';
