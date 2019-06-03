@@ -23,4 +23,5 @@ export { startWith } from './internal/operators/startWith';
 export { take } from './internal/operators/take';
 export { takeLast } from './internal/operators/takeLast';
 export { takeUntil } from './internal/operators/takeUntil';
+export { takeWhile } from './internal/operators/takeWhile';
 export { throwIfEmpty } from './internal/operators/throwIfEmpty';
