@@ -18,6 +18,7 @@ export { observe } from './internal/operators/observe';
 export { pluck } from './internal/operators/pluck';
 export { skip } from './internal/operators/skip';
 export { skipUntil } from './internal/operators/skipUntil';
+export { skipWhile } from './internal/operators/skipWhile';
 export { take } from './internal/operators/take';
 export { takeLast } from './internal/operators/takeLast';
 export { throwIfEmpty } from './internal/operators/throwIfEmpty';
